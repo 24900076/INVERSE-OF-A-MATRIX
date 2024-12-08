@@ -19,8 +19,11 @@ END OF PROGRAM
 
 ## Program:
 import numpy as np
+
 a=([[2,1,1],[1,1,1],[1,-1,2]]) 
+
 b=np.linalg.inv(a)
+
 print(b)
 
 ## Output:
